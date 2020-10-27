@@ -6,10 +6,10 @@ import java.awt.*;
 public class GUI {
 	public static void main(String args[]) {
 
-        //Creating the Frame
-        JFrame frame = new JFrame("Chat Frame");
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setSize(400, 400);
+        //Creating the Frame(視窗容器)
+        JFrame frame = new JFrame("Chat Frame");		
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);	// 視窗關閉按鈕啟用
+        frame.setMinimumSize(new Dimension(300,400));		// 設定視窗最小尺寸
 
         //Creating the MenuBar and adding components
         JMenuBar mb = new JMenuBar();
